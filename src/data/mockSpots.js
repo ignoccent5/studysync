@@ -1,0 +1,52 @@
+export const initialSpots = [
+  {
+    id: 'lib-3',
+    name: 'MacOdrum Library — 3rd Floor Quiet Zone',
+    building: 'Library',
+    status: 'Quiet',
+    vibe: 'Solo Quiet',
+    outlets: 'High',
+    whiteboard: false,
+    updatedMinutesAgo: 4,
+    sessions: [
+      { id: 's1', course: 'COMP 1405', topic: 'Midterm Recursion Practice', seatsLeft: 2 },
+    ],
+  },
+  {
+    id: 'eng-lab',
+    name: 'Minto CASE — Collaborative Design Lab',
+    building: 'Engineering',
+    status: 'Moderate',
+    vibe: 'Group Work',
+    outlets: 'High',
+    whiteboard: true,
+    updatedMinutesAgo: 9,
+    sessions: [
+      { id: 's2', course: 'SYSC 2006', topic: 'C Pointers & Memory Debugging', seatsLeft: 3 },
+    ],
+  },
+  {
+    id: 'uc-atrium',
+    name: 'University Centre — Atrium Tables',
+    building: 'Campus Hub',
+    status: 'Packed',
+    vibe: 'Group Work',
+    outlets: 'Low',
+    whiteboard: false,
+    updatedMinutesAgo: 2,
+    sessions: [],
+  },
+  {
+    id: 'herzberg-4',
+    name: 'Herzberg Labs — 4th Floor Study Nook',
+    building: 'Science',
+    status: 'Quiet',
+    vibe: 'Solo Quiet',
+    outlets: 'Medium',
+    whiteboard: true,
+    updatedMinutesAgo: 14,
+    sessions: [
+      { id: 's3', course: 'MATH 1104', topic: 'Eigenvalues Problem Set', seatsLeft: 1 },
+    ],
+  },
+];
